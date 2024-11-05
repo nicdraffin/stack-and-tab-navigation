@@ -59,7 +59,7 @@ const Index = () => {
           {/* Login Button */}
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigation.navigate("(tabs)")}
+            onPress={() => navigation.navigate("(drawer)")}
           >
             <Text style={styles.buttonText}>Login</Text>
           </TouchableOpacity>
